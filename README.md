@@ -1,5 +1,6 @@
 # bwt_laravel
 \>\>\> php artisan serve
+
 #paths:
 ###/
 ###/weather
