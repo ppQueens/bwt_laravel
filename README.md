@@ -2,7 +2,10 @@
 \>\>\> php artisan serve
 
 #paths:
-###/
-###/weather
-###/feedbacks
-###/new_feedback
+-/
+
+-/weather
+
+-/feedbacks
+
+-/new_feedback
