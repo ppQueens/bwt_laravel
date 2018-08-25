@@ -20,7 +20,6 @@ class FeedbackController extends Controller {
     public function get_feedbacks(){
 
         $feeds = App\Feedback::with("user:email,id")->get();
-        print_r($feeds[0]["user"]["email"]);
         return View("feedback/feedbacks", ["feeds" => $feeds]);
     }
 
